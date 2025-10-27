@@ -2,7 +2,7 @@
 Manipulador Motoman MH6.
 En este laboratorio se estudiaron las características del Manipulador Motoman MH6 y su funcionamiento utilizando el softwar RoboSDK, para esto se programó que el manipulador siguiera una trayectoria polar y finalmente escribiera los nombres de ambos integrantes del grupo.
 
-##Cuadro comparativo entre manipulador Motoman MH6 y manipulador IRB140.
+## Cuadro comparativo entre manipulador Motoman MH6 y manipulador IRB140.
 
 | **Característica** | **Motoman MH6 (Yaskawa)** | **ABB IRB 140 (ABB Robotics)** |
 |---------------------|---------------------------|--------------------------------|
