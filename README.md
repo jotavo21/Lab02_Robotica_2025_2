@@ -40,6 +40,16 @@ Posteriormente, se debe verificar la velocidad inicial y el modo de operación. 
 Una vez seleccionado el modo deseado, el operador debe presionar el botón de seguridad o “hombre muerto” y, de forma simultánea, accionar el botón correspondiente al eje y dirección de movimiento que se desee ejecutar. Estos controles se encuentran en la parte central del Pendant e indican el eje y sentido asociados a los modos Cartesiano y Articulado. Además, existen dos pares adicionales de botones programables, que en el caso del Laboratorio de Sistemas Inteligentes y Robótica (LabSIR), están configurados para controlar la banda transportadora y un motor adicional.
 
 ## Velocidad para movimientos manueales, identificación y operación.
+En el robot Motoman MH6, el control de velocidad durante la operación manual se realiza mediante tres opciones predeterminadas. En la parte central del Pendant se encuentran los botones “HIGH SPEED”, “FAST” y “SLOW”, los cuales permiten seleccionar la velocidad de desplazamiento del robot según las necesidades de precisión y seguridad del operador.
+
+El nivel de velocidad actualmente activo puede observarse en la pantalla del Pendant, específicamente en la barra de estado ubicada en la parte superior. En dicha área se presenta un ícono con forma de triángulo dividido en tres secciones, donde el número de áreas sombreadas y la letra asociada (L, M o H) indican el modo de velocidad:
+
+L (Low): baja velocidad, utilizada para operaciones de alta precisión o zonas de riesgo.
+
+M (Medium): velocidad media, recomendada para ajustes o movimientos intermedios.
+
+H (High): alta velocidad, utilizada para desplazamientos largos o fuera del entorno de trabajo inmediato.
+
 ## Descripciónn de las principales funcionalidades de RoboDK: Comunicación y Procesos.
 ## Análisis comparativo entre RoboDK y RobotStudio.
 El software RoboDK es una herramienta que contiene robots de diferentes marcas como Yaskawa, ABB, Fanuc, KUKA, Universal Robots, Staubli, entre otros. Su principal fortaleza radica en permitir que el usuario simule y genere código de control para distintos robots de diferentes fabricantes dentro de un mismo entorno, lo que facilita la comparación de desempeño. Además, integra módulos CAD/CAM que posibilitan importar trayectorias. Asimismo, el que sea un software más generalizado y abierto implica algunas limitaciones. La precisión de la simulación puede llegar a ser menor que la obtenida en los entornos nativos de cada fabricante. Del mismo modo, la herramienta no replica el comportamiento interno del controlador real, por lo que el código generado debe ser posteriormente validado o ajustado directamente en el robot. Aun así, su capacidad para soportar múltiples lenguajes de programación y su bajo costo de licencia la hacen especialmente atractiva para proyectos educativos o de integración inicial.
