@@ -30,7 +30,13 @@ En este laboratorio se estudiaron las características del Manipulador Motoman M
 ## Diferencias entre posiciones Home1 y Home2 en el manipulador Motoman MH6
 La posición Home 1 corresponde generalmente a una postura de descanso o almacenamiento en la que el robot se encuentra retraído con los brazos y eslabones cerca a la base. En esta configuración, el centro de masa del brazo queda alineado de manera que el peso propio del manipulador ejerce un momento mínimo sobre los frenos de los motores de los ejes principales. Esto reduce el esfuerzo necesario para mantener las articulaciones en su lugar cuando el robot se encuentra desenergizado, evitando desplazamientos por gravedad. Por esta razón, la posición Home 1 se debe utilizar al finalizar la operación ya que contribuye a prolongar la vida útil de los frenos y reductores.
 
+![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/home1.jpg)
+![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/teachhome1.jpg)
+
 Mientras que la posición Home 2 se define como una posición de referencia geométrica o de calibración más estándar en la que las articulaciones principales se encuentran en 0 grados. En esta posición el manipulador adopta una postura extendida hacia adelante. En esta configuración, los ejes se alinean de manera que el brazo queda orientado de forma recta y perpendicular al plano de la base y el efector final perpendicular al brazo. Esta configuración facilita la orientación del efector final y la programación de trayectorias. 
+
+![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/home2.jpg)
+![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/teachhome2.jpg)
 
 ## Procedimiento detallado para realizar movimientos manuales; traslaciones, rotaciones y modos de operación.
 Para iniciar la manipulación manual del robot, es necesario colocar la llave en la posición Teach. A continuación, se debe girar el botón de parada de emergencia para desactivarlo y permitir el funcionamiento del sistema. Una vez hecho esto, se encienden los servomotores presionando el botón “SERVO ON READY”, ubicado en la parte superior del Pendant.
