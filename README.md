@@ -67,4 +67,5 @@ Por otro lado, RobotStudio es una plataforma desarrollada exclusivamente por ABB
 ## Código desarrollado en RoboDK para ejecutar una trayectoria polar, adjuntado como anexo dentro del repositorio.
 ## Video de simulación en RoboDK mostrando la trayectoria polar y evidencia de su implementación en el manipulador Motoman de forma física, controlado desde el PC.
 
+[![Ver el video en YouTube](https://img.youtube.com/vi/WaRxE4iGR3M/hqdefault.jpg)](https://youtu.be/VLUTuU5UzsA)
 
