@@ -71,7 +71,6 @@ Por otro lado, RobotStudio es una plataforma desarrollada exclusivamente por ABB
 ![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/DiagramaDeFlujo.png) 
 
 
-## Plano de planta de la ubicaciónn de cada uno de los elementos.
 ## Código desarrollado en RoboDK para ejecutar una trayectoria polar, adjuntado como anexo dentro del repositorio.
 En la primera sección, se realiza la conexión a RoboDK mediante la clase Robolink(), seleccionando el robot activo y verificando su estado de conexión. Luego, se carga un marco de referencia (Frame) previamente definido en la estación, sobre el cual se ejecutarán los movimientos, y se configuran parámetros de velocidad y suavizado (blending) para optimizar la trayectoria.
 
