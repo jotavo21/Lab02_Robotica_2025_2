@@ -60,7 +60,7 @@ El software RoboDK es una herramienta que contiene robots de diferentes marcas c
 Por otro lado, RobotStudio es una plataforma desarrollada exclusivamente por ABB Robotics y enfocada en la simulación precisa de robots de esta marca. Su principal ventaja es la incorporación del Virtual Controller, una réplica exacta del controlador físico IRC5, que permite ejecutar programas en un entorno virtual con los mismos resultados que se obtendrían en el robot real. Gracias a esto es capaz de identificar errores de programación y analizar trayectorias con una precisión muchísimo mayor. Además, ofrece una integración completa con el lenguaje RAPID. Su principal limitación radica en su carácter exclusivo: solo es compatible con robots ABB, por lo que no resulta útil en entornos donde se utilizan equipos de diferentes fabricantes. También presenta mayores requerimientos de hardware y una curva de aprendizaje más pronunciada, ya que exige familiaridad con la estructura de programación y configuración de ABB. 
 
 ## Diagrama de flujo de acciones del robot.
-![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Trayectoria%20propuesta.png) 
+![image]([https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Trayectoria%20propuesta.png](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/DiagramaDeFlujo.png?raw=true)) 
 
 
 ## Plano de planta de la ubicaciónn de cada uno de los elementos.
