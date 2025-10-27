@@ -73,6 +73,11 @@ Finalmente, se añade una rutina para dibujar el texto “Ian y Juan”, emplean
 
 ## Video de simulación en RoboDK mostrando la trayectoria polar y evidencia de su implementación en el manipulador Motoman de forma física, controlado desde el PC.
 
+### Simulación de trayectoria polar
+[![Ver video en YouTube](https://img.youtube.com/vi/PqE48nXHdXA/maxresdefault.jpg)](https://youtu.be/PqE48nXHdXA)
+
+### Implementación en manipulador Motoman MH6
 [![Ver video en YouTube](https://img.youtube.com/vi/VLUTuU5UzsA/maxresdefault.jpg)](https://youtu.be/VLUTuU5UzsA)
+
 
 
