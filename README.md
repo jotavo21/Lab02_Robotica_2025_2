@@ -38,6 +38,8 @@ Mientras que la posición Home 2 se define como una posición de referencia geom
 ![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/home2.jpg)
 ![image](https://github.com/jotavo21/Lab02_Robotica_2025_2/blob/main/Imagenes/teachhome2.jpg)
 
+Imágenes tomadas por David García.
+
 ## Procedimiento detallado para realizar movimientos manuales; traslaciones, rotaciones y modos de operación.
 Para iniciar la manipulación manual del robot, es necesario colocar la llave en la posición Teach. A continuación, se debe girar el botón de parada de emergencia para desactivarlo y permitir el funcionamiento del sistema. Una vez hecho esto, se encienden los servomotores presionando el botón “SERVO ON READY”, ubicado en la parte superior del Pendant.
 
