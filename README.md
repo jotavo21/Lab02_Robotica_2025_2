@@ -33,6 +33,12 @@ La posición Home 1 corresponde generalmente a una postura de descanso o almacen
 Mientras que la posición Home 2 se define como una posición de referencia geométrica o de calibración más estándar en la que las articulaciones principales se encuentran en 0 grados. En esta posición el manipulador adopta una postura extendida hacia adelante. En esta configuración, los ejes se alinean de manera que el brazo queda orientado de forma recta y perpendicular al plano de la base y el efector final perpendicular al brazo. Esta configuración facilita la orientación del efector final y la programación de trayectorias. 
 
 ## Procedimiento detallado para realizar movimientos manuales; traslaciones, rotaciones y modos de operación.
+Para iniciar la manipulación manual del robot, es necesario colocar la llave en la posición Teach. A continuación, se debe girar el botón de parada de emergencia para desactivarlo y permitir el funcionamiento del sistema. Una vez hecho esto, se encienden los servomotores presionando el botón “SERVO ON READY”, ubicado en la parte superior del Pendant.
+
+Posteriormente, se debe verificar la velocidad inicial y el modo de operación. Para definir o cambiar el modo de operación (también conocido como modo de coordenadas), se utiliza el botón “COORD”, situado en la primera fila de botones del Pendant. Al presionarlo, se deben observar los cambios de modo en la barra de estado, ubicada en la parte superior de la pantalla. Los modos disponibles son: Coordenadas Articuladas, Coordenadas Cartesianas, Coordenadas Cilíndricas, Coordenadas de la Herramienta y Coordenadas del Usuario.
+
+Una vez seleccionado el modo deseado, el operador debe presionar el botón de seguridad o “hombre muerto” y, de forma simultánea, accionar el botón correspondiente al eje y dirección de movimiento que se desee ejecutar. Estos controles se encuentran en la parte central del Pendant e indican el eje y sentido asociados a los modos Cartesiano y Articulado. Además, existen dos pares adicionales de botones programables, que en el caso del Laboratorio de Sistemas Inteligentes y Robótica (LabSIR), están configurados para controlar la banda transportadora y un motor adicional.
+
 ## Velocidad para movimientos manueales, identificación y operación.
 ## Descripciónn de las principales funcionalidades de RoboDK: Comunicación y Procesos.
 ## Análisis comparativo entre RoboDK y RobotStudio.
