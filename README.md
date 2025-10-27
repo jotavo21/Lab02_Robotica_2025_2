@@ -27,7 +27,7 @@ En este laboratorio se estudiaron las características del Manipulador Motoman M
 | **Ventajas destacadas** | Gran alcance y estructura robusta; compatible con múltiples montajes | Alta precisión, tamaño compacto, ideal para espacios reducidos |
 | **Limitaciones** | Repetibilidad menor que IRB 140, tamaño mayor | Alcance más corto, limitado para piezas grandes |
 
-##Diferencias entre posiciones Home1 y Home2 en el manipulador Motoman MH6
+## Diferencias entre posiciones Home1 y Home2 en el manipulador Motoman MH6
 La posición Home 1 corresponde generalmente a una postura de descanso o almacenamiento seguro, en la que el robot se encuentra retraído, con los brazos y eslabones cerca a la base. En esta configuración, el centro de masa del brazo queda alineado de manera que el peso propio del manipulador ejerce un momento mínimo sobre los frenos de los motores de los ejes principales. Esto reduce el esfuerzo necesario para mantener las articulaciones en su lugar cuando el robot se encuentra desenergizado, evitando desplazamientos por gravedad. Por esta razón, la posición Home 1 se debe utilizar al finalizar la operación ya que contribuye a prolongar la vida útil de los frenos y reductores.
 
 ## Procedimiento detallado para realizar movimientos manuales; traslaciones, rotaciones y modos de operación.
