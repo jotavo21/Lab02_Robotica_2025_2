@@ -65,6 +65,12 @@ Por otro lado, RobotStudio es una plataforma desarrollada exclusivamente por ABB
 
 ## Plano de planta de la ubicaciónn de cada uno de los elementos.
 ## Código desarrollado en RoboDK para ejecutar una trayectoria polar, adjuntado como anexo dentro del repositorio.
+En la primera sección, se realiza la conexión a RoboDK mediante la clase Robolink(), seleccionando el robot activo y verificando su estado de conexión. Luego, se carga un marco de referencia (Frame) previamente definido en la estación, sobre el cual se ejecutarán los movimientos, y se configuran parámetros de velocidad y suavizado (blending) para optimizar la trayectoria.
+
+Posteriormente, el código genera una figura de tipo “rosa polar” descrita por la ecuación r=A⋅cos(kθ), calculando coordenadas cartesianas (x,y) para cada punto mediante funciones trigonométricas. El robot se desplaza a lo largo de esta trayectoria utilizando movimientos lineales (MoveL), primero a una altura segura y luego sobre el plano de trabajo definido por el frame.
+
+Finalmente, se añade una rutina para dibujar el texto “Ian y Juan”, empleando la librería matplotlib para obtener los vértices del contorno del texto y convertirlos en una secuencia de posiciones que el robot sigue también con movimientos lineales. El programa concluye elevando el efector final a una altura segura para evitar colisiones y confirmando la finalización de la figura.
+
 ## Video de simulación en RoboDK mostrando la trayectoria polar y evidencia de su implementación en el manipulador Motoman de forma física, controlado desde el PC.
 
 [![Ver video en YouTube](https://img.youtube.com/vi/VLUTuU5UzsA/maxresdefault.jpg)](https://youtu.be/VLUTuU5UzsA)
